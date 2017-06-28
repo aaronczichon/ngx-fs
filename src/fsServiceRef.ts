@@ -1,4 +1,4 @@
-import {ChildProcessService} from './childProcessService';
+import {FsService} from './fsService';
 import {Injectable} from '@angular/core';
 
 @Injectable()

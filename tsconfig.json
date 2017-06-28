@@ -11,8 +11,8 @@
     "declaration": true,
     "moduleResolution": "node",
     "typeRoots": [
-      "node_modules/@types",
-      "typings"
+      "./node_modules/@types",
+      "./typings"
     ],
     "lib": [
       "es2015",
@@ -21,7 +21,7 @@
   },
   "files": [
     "index.ts",
-    "./src/childProcessService.ts"
+    "./src/fsService.ts"
   ],
   "exclude": [
     "node_modules",

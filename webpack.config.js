@@ -26,7 +26,7 @@ module.exports = {
         path: helpers.root('bundles'),
         publicPath: '/',
         filename: 'core.umd.js',
-        library: 'ngx-electron',
+        library: 'ngx-fs',
         libraryTarget: 'umd'
     },
 
